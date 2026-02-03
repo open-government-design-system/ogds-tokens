@@ -1,0 +1,43 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --usa-font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --usa-font-family-georgia: Georgia, Cambria, "Times New Roman", Times, serif;
+  --usa-font-family-helvetica: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  --usa-font-family-monospace: "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
+  --usa-font-size-1: 0.75rem;
+  --usa-font-size-2: 0.8125rem;
+  --usa-font-size-3: 0.875rem;
+  --usa-font-size-4: 0.9375rem;
+  --usa-font-size-5: 1rem;
+  --usa-font-size-6: 1.0625rem;
+  --usa-font-size-7: 1.125rem;
+  --usa-font-size-8: 1.1875rem;
+  --usa-font-size-9: 1.25rem;
+  --usa-font-size-10: 1.375rem;
+  --usa-font-size-11: 1.5rem;
+  --usa-font-size-12: 1.75rem;
+  --usa-font-size-13: 2rem;
+  --usa-font-size-14: 2.25rem;
+  --usa-font-size-15: 2.5rem;
+  --usa-font-size-16: 3rem;
+  --usa-font-size-17: 3.5rem;
+  --usa-font-size-18: 4rem;
+  --usa-font-size-19: 5rem;
+  --usa-font-size-20: 8.75rem;
+  --usa-font-size-micro: 0.625rem;
+  --usa-line-height-1: 1;
+  --usa-line-height-2: 1.15;
+  --usa-line-height-3: 1.35;
+  --usa-line-height-4: 1.5;
+  --usa-line-height-5: 1.62;
+  --usa-line-height-6: 1.75;
+  --usa-measure-smaller: 44ex;
+  --usa-measure-small: 60ex;
+  --usa-measure-base: 64ex;
+  --usa-measure-large: 68ex;
+  --usa-measure-larger: 72ex;
+  --usa-measure-largest: 88ex;
+}
