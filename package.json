@@ -17,15 +17,15 @@
   },
   "scripts": {
     "build": "style-dictionary build --config ./config/style-dictionary.config.js",
+    "test": "vitest run",
     "prettier:js": "npx prettier --check '**/*.{cjs,css,js,json,jsx,mjs,ts,tsx}' --config ./config/.prettierrc",
     "prettier:js:fix": "npx prettier --write '**/*.{cjs,css,js,json,jsx,mjs,ts,tsx}' --config ./config/.prettierrc",
     "prettier:md": "npx prettier --check '**/*.{md,mdx}' --config ./config/.prettierrc",
     "prettier:md:fix": "npx prettier --write '**/*.{md,mdx}' --config ./config/.prettierrc"
   },
-  "dependencies": {
-  },
   "devDependencies": {
     "prettier": "^3.6.2",
-    "style-dictionary": "^5.1.1"
+    "style-dictionary": "^5.1.1",
+    "vitest": "^4.0.18"
   }
 }
