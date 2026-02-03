@@ -70,6 +70,69 @@ describe("generateTokenName", () => {
     const result = generateTokenName(otherToken, options);
     expect(result).toBe("usa-font-base-size");
   });
+
+  it("should generate token name for font-size", () => {
+    const fontSizeToken: TransformedToken = {
+      ...token,
+      path: ["font-size", "5"],
+    };
+    const result = generateTokenName(fontSizeToken, options);
+    expect(result).toBe("usa-font-size-5");
+  });
+
+  it("should generate token name for line-height", () => {
+    const lineHeightToken: TransformedToken = {
+      ...token,
+      path: ["line-height", "3"],
+    };
+    const result = generateTokenName(lineHeightToken, options);
+    expect(result).toBe("usa-line-height-3");
+  });
+
+  it("should generate token name for font-family", () => {
+    const fontFamilyToken: TransformedToken = {
+      ...token,
+      path: ["font-family", "system"],
+    };
+    const result = generateTokenName(fontFamilyToken, options);
+    expect(result).toBe("usa-font-family-system");
+  });
+
+  it("should generate token name for measure", () => {
+    const measureToken: TransformedToken = {
+      ...token,
+      path: ["measure", "small"],
+    };
+    const result = generateTokenName(measureToken, options);
+    expect(result).toBe("usa-measure-small");
+  });
+
+  it("should generate token name for column-gap", () => {
+    const columnGapToken: TransformedToken = {
+      ...token,
+      path: ["column-gap", "2"],
+    };
+    const result = generateTokenName(columnGapToken, options);
+    expect(result).toBe("usa-column-gap-2");
+  });
+
+  it("should generate token name for input-width", () => {
+    const inputWidthToken: TransformedToken = {
+      ...token,
+      path: ["input-width", "md"],
+    };
+    const result = generateTokenName(inputWidthToken, options);
+    expect(result).toBe("usa-input-width-md");
+  });
+
+  it("should generate token name for grid", () => {
+    const gridToken: TransformedToken = {
+      ...token,
+      path: ["grid", "base"],
+    };
+    const result = generateTokenName(gridToken, options);
+    expect(result).toBe("usa-grid-base");
+  });
 });
 
 describe("getTokenValueWithUnit", () => {
@@ -109,5 +172,23 @@ describe("getTokenValueWithUnit", () => {
     };
     const result = getTokenValueWithUnit(token);
     expect(result).toBe("#fff2f5");
+  });
+
+  it("should return fontFamily value as-is", () => {
+    const token = {
+      $value: "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      $type: "fontFamily",
+    };
+    const result = getTokenValueWithUnit(token);
+    expect(result).toBe("Georgia, Cambria, \"Times New Roman\", Times, serif");
+  });
+
+  it("should return number value as-is", () => {
+    const token = {
+      $value: 1.5,
+      $type: "number",
+    };
+    const result = getTokenValueWithUnit(token);
+    expect(result).toBe(1.5);
   });
 });
