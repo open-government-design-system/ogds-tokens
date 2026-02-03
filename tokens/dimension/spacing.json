@@ -1,13 +1,19 @@
 {
   "spacing": {
     "05": {
-      "$value": { "value": ".025", "unit": "rem" }
+      "$value": { "value": "0.25", "unit": "rem" }
     },
     "1": {
-      "$value": { "value": ".5", "unit": "rem" }
+      "$value": { "value": "0.5", "unit": "rem" }
+    },
+    "105": {
+      "$value": { "value": "0.75", "unit": "rem" }
     },
     "2": {
       "$value": { "value": "1", "unit": "rem" }
+    },
+    "205": {
+      "$value": { "value": "1.25", "unit": "rem" }
     },
     "3": {
       "$value": { "value": "1.5", "unit": "rem" }
@@ -20,6 +26,63 @@
     },
     "6": {
       "$value": { "value": "3", "unit": "rem" }
+    },
+    "7": {
+      "$value": { "value": "3.5", "unit": "rem" }
+    },
+    "8": {
+      "$value": { "value": "4", "unit": "rem" }
+    },
+    "9": {
+      "$value": { "value": "4.5", "unit": "rem" }
+    },
+    "10": {
+      "$value": { "value": "5", "unit": "rem" }
+    },
+    "15": {
+      "$value": { "value": "7.5", "unit": "rem" }
+    },
+    "neg-05": {
+      "$value": { "value": "-0.25", "unit": "rem" }
+    },
+    "neg-1": {
+      "$value": { "value": "-0.5", "unit": "rem" }
+    },
+    "neg-105": {
+      "$value": { "value": "-0.75", "unit": "rem" }
+    },
+    "neg-2": {
+      "$value": { "value": "-1", "unit": "rem" }
+    },
+    "neg-205": {
+      "$value": { "value": "-1.25", "unit": "rem" }
+    },
+    "neg-3": {
+      "$value": { "value": "-1.5", "unit": "rem" }
+    },
+    "neg-4": {
+      "$value": { "value": "-2", "unit": "rem" }
+    },
+    "neg-5": {
+      "$value": { "value": "-2.5", "unit": "rem" }
+    },
+    "neg-6": {
+      "$value": { "value": "-3", "unit": "rem" }
+    },
+    "neg-7": {
+      "$value": { "value": "-3.5", "unit": "rem" }
+    },
+    "neg-8": {
+      "$value": { "value": "-4", "unit": "rem" }
+    },
+    "neg-9": {
+      "$value": { "value": "-4.5", "unit": "rem" }
+    },
+    "neg-10": {
+      "$value": { "value": "-5", "unit": "rem" }
+    },
+    "neg-15": {
+      "$value": { "value": "-7.5", "unit": "rem" }
     }
   },
   "site-margins": {
