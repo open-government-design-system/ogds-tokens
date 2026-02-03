@@ -1,0 +1,23 @@
+{
+  "measure": {
+    "smaller": {
+      "$value": { "value": "44", "unit": "ex" }
+    },
+    "small": {
+      "$value": { "value": "60", "unit": "ex" }
+    },
+    "base": {
+      "$value": { "value": "64", "unit": "ex" }
+    },
+    "large": {
+      "$value": { "value": "68", "unit": "ex" }
+    },
+    "larger": {
+      "$value": { "value": "72", "unit": "ex" }
+    },
+    "largest": {
+      "$value": { "value": "88", "unit": "ex" }
+    }
+  },
+  "$type": "dimension"
+}
