@@ -1,0 +1,32 @@
+{
+  "column-gap": {
+    "0": {
+      "$value": { "value": "0", "unit": "px" }
+    },
+    "2px": {
+      "$value": { "value": "2", "unit": "px" }
+    },
+    "05": {
+      "$value": "{spacing.05}"
+    },
+    "1": {
+      "$value": "{spacing.1}"
+    },
+    "2": {
+      "$value": "{spacing.2}"
+    },
+    "3": {
+      "$value": "{spacing.3}"
+    },
+    "4": {
+      "$value": "{spacing.4}"
+    },
+    "5": {
+      "$value": "{spacing.5}"
+    },
+    "6": {
+      "$value": "{spacing.6}"
+    }
+  },
+  "$type": "dimension"
+}

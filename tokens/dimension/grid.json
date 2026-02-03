@@ -1,0 +1,8 @@
+{
+  "grid": {
+    "base": {
+      "$value": { "value": "8", "unit": "px" }
+    }
+  },
+  "$type": "dimension"
+}

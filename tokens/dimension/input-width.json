@@ -1,0 +1,26 @@
+{
+  "input-width": {
+    "2xs": {
+      "$value": { "value": "5", "unit": "ex" }
+    },
+    "xs": {
+      "$value": { "value": "9", "unit": "ex" }
+    },
+    "sm": {
+      "$value": { "value": "13", "unit": "ex" }
+    },
+    "md": {
+      "$value": { "value": "20", "unit": "ex" }
+    },
+    "lg": {
+      "$value": { "value": "30", "unit": "ex" }
+    },
+    "xl": {
+      "$value": { "value": "40", "unit": "ex" }
+    },
+    "2xl": {
+      "$value": { "value": "50", "unit": "ex" }
+    }
+  },
+  "$type": "dimension"
+}
