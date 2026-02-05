@@ -25,40 +25,40 @@
       "$value": { "value": "1.125", "unit": "rem" }
     },
     "8": {
-      "$value": { "value": "1.1875", "unit": "rem" }
-    },
-    "9": {
       "$value": { "value": "1.25", "unit": "rem" }
     },
-    "10": {
+    "9": {
       "$value": { "value": "1.375", "unit": "rem" }
     },
-    "11": {
+    "10": {
       "$value": { "value": "1.5", "unit": "rem" }
     },
-    "12": {
+    "11": {
       "$value": { "value": "1.75", "unit": "rem" }
     },
-    "13": {
+    "12": {
       "$value": { "value": "2", "unit": "rem" }
     },
-    "14": {
+    "13": {
       "$value": { "value": "2.25", "unit": "rem" }
     },
-    "15": {
+    "14": {
       "$value": { "value": "2.5", "unit": "rem" }
     },
-    "16": {
+    "15": {
       "$value": { "value": "3", "unit": "rem" }
     },
-    "17": {
+    "16": {
       "$value": { "value": "3.5", "unit": "rem" }
     },
-    "18": {
+    "17": {
       "$value": { "value": "4", "unit": "rem" }
     },
-    "19": {
+    "18": {
       "$value": { "value": "5", "unit": "rem" }
+    },
+    "19": {
+      "$value": { "value": "7.5", "unit": "rem" }
     },
     "20": {
       "$value": { "value": "8.75", "unit": "rem" }
