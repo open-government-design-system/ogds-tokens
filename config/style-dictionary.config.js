@@ -31,7 +31,15 @@ const outputs = [
     filter: (token) =>
       token.path[0] === "spacing" ||
       token.path[0] === "site-margins" ||
-      token.path[0] === "size",
+      token.path[0] === "size" ||
+      token.path[0] === "column-gap" ||
+      token.path[0] === "input-width" ||
+      token.path[0] === "grid",
+  },
+  {
+    name: "typography",
+    filter: (token) =>
+      token.filePath && token.filePath.includes("tokens/typography/"),
   },
 ];
 
