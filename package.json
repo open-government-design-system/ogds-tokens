@@ -1,6 +1,6 @@
 {
-  "name": "@open-government-design-system/tokens",
-  "version": "1.0.0-alpha",
+  "name": "@ogds/tokens",
+  "version": "1.0.0-alpha.1",
   "type": "module",
   "repository": {
     "type": "git",
