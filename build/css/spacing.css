@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:root {
+:root, :host {
   --usa-column-gap-0: 0px;
   --usa-column-gap-1: 0.5rem;
   --usa-column-gap-2: 1rem;

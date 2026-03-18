@@ -63,6 +63,9 @@ export default {
       files: outputs.map(({ name, filter }) => ({
         destination: `${name}.css`,
         format: "css/variables",
+        options: {
+          selector: ":root, :host",
+        },
         filter,
       })),
     },

@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:root {
+:root, :host {
   --usa-color-black-transparent-5: rgba(0,0,0,0.01);
   --usa-color-black-transparent-10: rgba(0,0,0,0.1);
   --usa-color-black-transparent-20: rgba(0,0,0,0.2);

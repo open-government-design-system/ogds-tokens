@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:root {
+:root, :host {
   --usa-breakpoint-card: 10rem;
   --usa-breakpoint-card-lg: 15rem;
   --usa-breakpoint-mobile: 20rem;
