@@ -251,6 +251,7 @@ describe("getTokenValueWithUnit", () => {
     $type: "dimension",
     isSource: true,
     key: "desktop-lg",
+    filePath: "tokens/dimension/breakpoints.json",
     name: "desktop-lg",
     attributes: {},
     path: ["breakpoint", "desktop-lg"],
@@ -276,16 +277,14 @@ describe("getTokenValueWithUnit", () => {
   });
 
   it("should return raw value if token type is not dimension", () => {
-    const token = {
-      $value: "#fff2f5",
-      $type: "color",
-    };
+    const token = { ...defaultToken, $value: "#fff2f5", $type: "color" };
     const result = getTokenValueWithUnit(token);
     expect(result).toBe("#fff2f5");
   });
 
   it("should return fontFamily value as-is", () => {
     const token = {
+      ...defaultToken,
       $value: "Georgia, Cambria, \"Times New Roman\", Times, serif",
       $type: "fontFamily",
     };
@@ -294,19 +293,13 @@ describe("getTokenValueWithUnit", () => {
   });
 
   it("should return number value as-is", () => {
-    const token = {
-      $value: 1.5,
-      $type: "number",
-    };
+    const token = { ...defaultToken, $value: 1.5, $type: "number" };
     const result = getTokenValueWithUnit(token);
     expect(result).toBe(1.5);
   });
 
   it("should return raw string value for dimension tokens with a string value", () => {
-    const token = {
-      $value: "2px",
-      $type: "dimension",
-    };
+    const token = { ...defaultToken, $value: "2px" };
     const result = getTokenValueWithUnit(token);
     expect(result).toBe("2px");
   });
