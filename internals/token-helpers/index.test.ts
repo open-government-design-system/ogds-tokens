@@ -133,6 +133,116 @@ describe("generateTokenName", () => {
     const result = generateTokenName(gridToken, options);
     expect(result).toBe("usa-grid-base");
   });
+
+  it("should generate token name for theme color with variant suffix", () => {
+    const themeColorToken: TransformedToken = {
+      ...token,
+      filePath: "tokens/theme/color.json",
+      path: ["theme-color", "base-lighter"],
+    };
+    const result = generateTokenName(themeColorToken, options);
+    expect(result).toBe("usa-theme-color-base-lighter");
+  });
+
+  it("should generate token name for theme color without variant suffix", () => {
+    const themeColorToken: TransformedToken = {
+      ...token,
+      filePath: "tokens/theme/color.json",
+      path: ["theme-color", "primary"],
+    };
+    const result = generateTokenName(themeColorToken, options);
+    expect(result).toBe("usa-theme-color-primary");
+  });
+
+  it("should generate token name for theme color with compound variant", () => {
+    const themeColorToken: TransformedToken = {
+      ...token,
+      filePath: "tokens/theme/color.json",
+      path: ["theme-color", "accent-cool-darker"],
+    };
+    const result = generateTokenName(themeColorToken, options);
+    expect(result).toBe("usa-theme-color-accent-cool-darker");
+  });
+
+  it("should generate token name for theme body color", () => {
+    const themeBodyToken: TransformedToken = {
+      ...token,
+      filePath: "tokens/theme/color.json",
+      path: ["theme-body", "background-color"],
+    };
+    const result = generateTokenName(themeBodyToken, options);
+    expect(result).toBe("usa-theme-body-background-color");
+  });
+
+  it("should generate token name for theme link color with compound suffix", () => {
+    const themeLinkToken: TransformedToken = {
+      ...token,
+      filePath: "tokens/theme/color.json",
+      path: ["theme-link", "reverse-hover-color"],
+    };
+    const result = generateTokenName(themeLinkToken, options);
+    expect(result).toBe("usa-theme-link-reverse-hover-color");
+  });
+
+  it("should generate token name for theme focus color", () => {
+    const themeFocusToken: TransformedToken = {
+      ...token,
+      filePath: "tokens/theme/color.json",
+      path: ["theme-focus", "color"],
+    };
+    const result = generateTokenName(themeFocusToken, options);
+    expect(result).toBe("usa-theme-focus-color");
+  });
+
+  it("should generate token name for theme border radius", () => {
+    const themeBorderRadiusToken: TransformedToken = {
+      ...token,
+      filePath: "tokens/theme/spacing.json",
+      path: ["theme-border-radius", "md"],
+    };
+    const result = generateTokenName(themeBorderRadiusToken, options);
+    expect(result).toBe("usa-theme-border-radius-md");
+  });
+
+  it("should generate token name for theme site margins", () => {
+    const themeSiteMarginsToken: TransformedToken = {
+      ...token,
+      filePath: "tokens/theme/spacing.json",
+      path: ["theme-site-margins", "mobile-width"],
+    };
+    const result = generateTokenName(themeSiteMarginsToken, options);
+    expect(result).toBe("usa-theme-site-margins-mobile-width");
+  });
+
+  it("should generate token name for theme grid container max-width", () => {
+    const themeGridToken: TransformedToken = {
+      ...token,
+      filePath: "tokens/theme/spacing.json",
+      path: ["theme-grid-container-max-width"],
+    };
+    const result = generateTokenName(themeGridToken, options);
+    expect(result).toBe("usa-theme-grid-container-max-width");
+  });
+
+  it("should generate token name for theme type scale", () => {
+    const themeTypeScaleToken: TransformedToken = {
+      ...token,
+      filePath: "tokens/theme/typography.json",
+      path: ["theme-type-scale", "3xs"],
+    };
+    const result = generateTokenName(themeTypeScaleToken, options);
+    expect(result).toBe("usa-theme-type-scale-3xs");
+  });
+
+  it("should generate token name for theme heading font size", () => {
+    const themeH1Token: TransformedToken = {
+      ...token,
+      filePath: "tokens/theme/typography.json",
+      path: ["theme-h1-font-size"],
+    };
+    const result = generateTokenName(themeH1Token, options);
+    expect(result).toBe("usa-theme-h1-font-size");
+  });
 });
 
 describe("getTokenValueWithUnit", () => {
@@ -190,5 +300,14 @@ describe("getTokenValueWithUnit", () => {
     };
     const result = getTokenValueWithUnit(token);
     expect(result).toBe(1.5);
+  });
+
+  it("should return raw string value for dimension tokens with a string value", () => {
+    const token = {
+      $value: "2px",
+      $type: "dimension",
+    };
+    const result = getTokenValueWithUnit(token);
+    expect(result).toBe("2px");
   });
 });
