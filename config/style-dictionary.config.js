@@ -41,6 +41,21 @@ const outputs = [
     filter: (token) =>
       token.filePath && token.filePath.includes("tokens/typography/"),
   },
+  {
+    name: "theme-color",
+    filter: (token) =>
+      token.filePath && token.filePath.includes("tokens/theme/color"),
+  },
+  {
+    name: "theme-spacing",
+    filter: (token) =>
+      token.filePath && token.filePath.includes("tokens/theme/spacing"),
+  },
+  {
+    name: "theme-typography",
+    filter: (token) =>
+      token.filePath && token.filePath.includes("tokens/theme/typography"),
+  },
 ];
 
 export default {

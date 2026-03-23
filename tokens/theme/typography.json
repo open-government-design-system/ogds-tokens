@@ -1,0 +1,26 @@
+{
+  "theme-type-scale": {
+    "$type": "dimension",
+    "3xs": { "$value": "{font-size.2}" },
+    "2xs": { "$value": "{font-size.3}" },
+    "xs": { "$value": "{font-size.4}" },
+    "sm": { "$value": "{font-size.5}" },
+    "md": { "$value": "{font-size.6}" },
+    "lg": { "$value": "{font-size.9}" },
+    "xl": { "$value": "{font-size.12}" },
+    "2xl": { "$value": "{font-size.14}" },
+    "3xl": { "$value": "{font-size.15}" }
+  },
+  "theme-body-font-size": { "$value": "{font-size.5}", "$type": "dimension" },
+  "theme-body-line-height": { "$value": "{line-height.5}", "$type": "number" },
+  "theme-heading-line-height": { "$value": "{line-height.2}", "$type": "number" },
+  "theme-display-font-size": { "$value": "{font-size.15}", "$type": "dimension" },
+  "theme-h1-font-size": { "$value": "{font-size.14}", "$type": "dimension" },
+  "theme-h2-font-size": { "$value": "{font-size.12}", "$type": "dimension" },
+  "theme-h3-font-size": { "$value": "{font-size.9}", "$type": "dimension" },
+  "theme-h4-font-size": { "$value": "{font-size.5}", "$type": "dimension" },
+  "theme-h5-font-size": { "$value": "{font-size.4}", "$type": "dimension" },
+  "theme-h6-font-size": { "$value": "{font-size.2}", "$type": "dimension" },
+  "theme-lead-font-size": { "$value": "{font-size.9}", "$type": "dimension" },
+  "theme-lead-line-height": { "$value": "{line-height.6}", "$type": "number" }
+}
