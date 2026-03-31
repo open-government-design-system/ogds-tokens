@@ -5,13 +5,13 @@ import {
 } from "../internals/token-helpers/index.ts";
 
 StyleDictionary.registerTransform({
-  name: "name/uswds-theme",
+  name: "name/odgs-theme",
   type: "name",
   transform: generateTokenName,
 });
 
 StyleDictionary.registerTransform({
-  name: "value/uswds-units",
+  name: "value/odgs-units",
   type: "value",
   transform: getTokenValueWithUnit,
 });
@@ -62,8 +62,8 @@ export default {
   source: ["tokens/**/*.json"],
   platforms: {
     scss: {
-      transforms: ["name/uswds-theme", "value/uswds-units"],
-      prefix: "usa",
+      transforms: ["name/odgs-theme", "value/odgs-units"],
+      prefix: "ogds",
       buildPath: "build/scss/",
       files: outputs.map(({ name, filter }) => ({
         destination: `_${name}.scss`,
@@ -72,8 +72,8 @@ export default {
       })),
     },
     css: {
-      transforms: ["name/uswds-theme", "value/uswds-units"],
-      prefix: "usa",
+      transforms: ["name/odgs-theme", "value/odgs-units"],
+      prefix: "ogds",
       buildPath: "build/css/",
       files: outputs.map(({ name, filter }) => ({
         destination: `${name}.css`,

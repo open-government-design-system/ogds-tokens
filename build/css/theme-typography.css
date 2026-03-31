@@ -3,25 +3,25 @@
  */
 
 :root, :host {
-  --usa-theme-type-scale-3xs: 0.8125rem;
-  --usa-theme-type-scale-2xs: 0.875rem;
-  --usa-theme-type-scale-xs: 0.9375rem;
-  --usa-theme-type-scale-sm: 1rem;
-  --usa-theme-type-scale-md: 1.0625rem;
-  --usa-theme-type-scale-lg: 1.375rem;
-  --usa-theme-type-scale-xl: 2rem;
-  --usa-theme-type-scale-2xl: 2.5rem;
-  --usa-theme-type-scale-3xl: 3rem;
-  --usa-theme-body-font-size: 1rem;
-  --usa-theme-body-line-height: 1.62;
-  --usa-theme-heading-line-height: 1.2;
-  --usa-theme-display-font-size: 3rem;
-  --usa-theme-h1-font-size: 2.5rem;
-  --usa-theme-h2-font-size: 2rem;
-  --usa-theme-h3-font-size: 1.375rem;
-  --usa-theme-h4-font-size: 1rem;
-  --usa-theme-h5-font-size: 0.9375rem;
-  --usa-theme-h6-font-size: 0.8125rem;
-  --usa-theme-lead-font-size: 1.375rem;
-  --usa-theme-lead-line-height: 1.75;
+  --ogds-theme-type-scale-3xs: 0.8125rem;
+  --ogds-theme-type-scale-2xs: 0.875rem;
+  --ogds-theme-type-scale-xs: 0.9375rem;
+  --ogds-theme-type-scale-sm: 1rem;
+  --ogds-theme-type-scale-md: 1.0625rem;
+  --ogds-theme-type-scale-lg: 1.375rem;
+  --ogds-theme-type-scale-xl: 2rem;
+  --ogds-theme-type-scale-2xl: 2.5rem;
+  --ogds-theme-type-scale-3xl: 3rem;
+  --ogds-theme-body-font-size: 1rem;
+  --ogds-theme-body-line-height: 1.62;
+  --ogds-theme-heading-line-height: 1.2;
+  --ogds-theme-display-font-size: 3rem;
+  --ogds-theme-h1-font-size: 2.5rem;
+  --ogds-theme-h2-font-size: 2rem;
+  --ogds-theme-h3-font-size: 1.375rem;
+  --ogds-theme-h4-font-size: 1rem;
+  --ogds-theme-h5-font-size: 0.9375rem;
+  --ogds-theme-h6-font-size: 0.8125rem;
+  --ogds-theme-lead-font-size: 1.375rem;
+  --ogds-theme-lead-line-height: 1.75;
 }

@@ -20,7 +20,7 @@ describe("generateTokenName", () => {
   };
 
   const options: PlatformConfig = {
-    prefix: "usa",
+    prefix: "ogds",
     transforms: [],
     buildPath: "",
     files: [],
@@ -30,7 +30,7 @@ describe("generateTokenName", () => {
 
   it("should generate token name for breakpoint prefix", () => {
     const result = generateTokenName(token, options);
-    expect(result).toBe("usa-breakpoint-desktop-lg");
+    expect(result).toBe("ogds-breakpoint-desktop-lg");
   });
 
   it("should generate token name for spacing prefix", () => {
@@ -39,7 +39,7 @@ describe("generateTokenName", () => {
       path: ["site-margins", "width"],
     };
     const result = generateTokenName(spacingToken, options);
-    expect(result).toBe("usa-site-margins-width");
+    expect(result).toBe("ogds-site-margins-width");
   });
 
   it("should generate token name for color directory with single path key", () => {
@@ -49,7 +49,7 @@ describe("generateTokenName", () => {
       path: ["black"],
     };
     const result = generateTokenName(colorTokenSingle, options);
-    expect(result).toBe("usa-color-black");
+    expect(result).toBe("ogds-color-black");
   });
 
   it("should generate token name for color directory with multiple path keys", () => {
@@ -59,7 +59,7 @@ describe("generateTokenName", () => {
       path: ["primary", "light"],
     };
     const result = generateTokenName(colorTokenMulti, options);
-    expect(result).toBe("usa-color-primary-light");
+    expect(result).toBe("ogds-color-primary-light");
   });
 
   it("should generate token name fallback for other cases", () => {
@@ -68,7 +68,7 @@ describe("generateTokenName", () => {
       path: ["font", "base-size"],
     };
     const result = generateTokenName(otherToken, options);
-    expect(result).toBe("usa-font-base-size");
+    expect(result).toBe("ogds-font-base-size");
   });
 
   it("should generate token name for font-size", () => {
@@ -77,7 +77,7 @@ describe("generateTokenName", () => {
       path: ["font-size", "5"],
     };
     const result = generateTokenName(fontSizeToken, options);
-    expect(result).toBe("usa-font-size-5");
+    expect(result).toBe("ogds-font-size-5");
   });
 
   it("should generate token name for line-height", () => {
@@ -86,7 +86,7 @@ describe("generateTokenName", () => {
       path: ["line-height", "3"],
     };
     const result = generateTokenName(lineHeightToken, options);
-    expect(result).toBe("usa-line-height-3");
+    expect(result).toBe("ogds-line-height-3");
   });
 
   it("should generate token name for font-family", () => {
@@ -95,7 +95,7 @@ describe("generateTokenName", () => {
       path: ["font-family", "system"],
     };
     const result = generateTokenName(fontFamilyToken, options);
-    expect(result).toBe("usa-font-family-system");
+    expect(result).toBe("ogds-font-family-system");
   });
 
   it("should generate token name for measure", () => {
@@ -104,7 +104,7 @@ describe("generateTokenName", () => {
       path: ["measure", "small"],
     };
     const result = generateTokenName(measureToken, options);
-    expect(result).toBe("usa-measure-small");
+    expect(result).toBe("ogds-measure-small");
   });
 
   it("should generate token name for column-gap", () => {
@@ -113,7 +113,7 @@ describe("generateTokenName", () => {
       path: ["column-gap", "2"],
     };
     const result = generateTokenName(columnGapToken, options);
-    expect(result).toBe("usa-column-gap-2");
+    expect(result).toBe("ogds-column-gap-2");
   });
 
   it("should generate token name for input-width", () => {
@@ -122,7 +122,7 @@ describe("generateTokenName", () => {
       path: ["input-width", "md"],
     };
     const result = generateTokenName(inputWidthToken, options);
-    expect(result).toBe("usa-input-width-md");
+    expect(result).toBe("ogds-input-width-md");
   });
 
   it("should generate token name for grid", () => {
@@ -131,7 +131,7 @@ describe("generateTokenName", () => {
       path: ["grid", "base"],
     };
     const result = generateTokenName(gridToken, options);
-    expect(result).toBe("usa-grid-base");
+    expect(result).toBe("ogds-grid-base");
   });
 
   it("should generate token name for theme color with variant suffix", () => {
@@ -141,7 +141,7 @@ describe("generateTokenName", () => {
       path: ["theme-color", "base-lighter"],
     };
     const result = generateTokenName(themeColorToken, options);
-    expect(result).toBe("usa-theme-color-base-lighter");
+    expect(result).toBe("ogds-theme-color-base-lighter");
   });
 
   it("should generate token name for theme color without variant suffix", () => {
@@ -151,7 +151,7 @@ describe("generateTokenName", () => {
       path: ["theme-color", "primary"],
     };
     const result = generateTokenName(themeColorToken, options);
-    expect(result).toBe("usa-theme-color-primary");
+    expect(result).toBe("ogds-theme-color-primary");
   });
 
   it("should generate token name for theme color with compound variant", () => {
@@ -161,7 +161,7 @@ describe("generateTokenName", () => {
       path: ["theme-color", "accent-cool-darker"],
     };
     const result = generateTokenName(themeColorToken, options);
-    expect(result).toBe("usa-theme-color-accent-cool-darker");
+    expect(result).toBe("ogds-theme-color-accent-cool-darker");
   });
 
   it("should generate token name for theme body color", () => {
@@ -171,7 +171,7 @@ describe("generateTokenName", () => {
       path: ["theme-body", "background-color"],
     };
     const result = generateTokenName(themeBodyToken, options);
-    expect(result).toBe("usa-theme-body-background-color");
+    expect(result).toBe("ogds-theme-body-background-color");
   });
 
   it("should generate token name for theme link color with compound suffix", () => {
@@ -181,7 +181,7 @@ describe("generateTokenName", () => {
       path: ["theme-link", "reverse-hover-color"],
     };
     const result = generateTokenName(themeLinkToken, options);
-    expect(result).toBe("usa-theme-link-reverse-hover-color");
+    expect(result).toBe("ogds-theme-link-reverse-hover-color");
   });
 
   it("should generate token name for theme focus color", () => {
@@ -191,7 +191,7 @@ describe("generateTokenName", () => {
       path: ["theme-focus", "color"],
     };
     const result = generateTokenName(themeFocusToken, options);
-    expect(result).toBe("usa-theme-focus-color");
+    expect(result).toBe("ogds-theme-focus-color");
   });
 
   it("should generate token name for theme border radius", () => {
@@ -201,7 +201,7 @@ describe("generateTokenName", () => {
       path: ["theme-border-radius", "md"],
     };
     const result = generateTokenName(themeBorderRadiusToken, options);
-    expect(result).toBe("usa-theme-border-radius-md");
+    expect(result).toBe("ogds-theme-border-radius-md");
   });
 
   it("should generate token name for theme site margins", () => {
@@ -211,7 +211,7 @@ describe("generateTokenName", () => {
       path: ["theme-site-margins", "mobile-width"],
     };
     const result = generateTokenName(themeSiteMarginsToken, options);
-    expect(result).toBe("usa-theme-site-margins-mobile-width");
+    expect(result).toBe("ogds-theme-site-margins-mobile-width");
   });
 
   it("should generate token name for theme grid container max-width", () => {
@@ -221,7 +221,7 @@ describe("generateTokenName", () => {
       path: ["theme-grid-container-max-width"],
     };
     const result = generateTokenName(themeGridToken, options);
-    expect(result).toBe("usa-theme-grid-container-max-width");
+    expect(result).toBe("ogds-theme-grid-container-max-width");
   });
 
   it("should generate token name for theme type scale", () => {
@@ -231,7 +231,7 @@ describe("generateTokenName", () => {
       path: ["theme-type-scale", "3xs"],
     };
     const result = generateTokenName(themeTypeScaleToken, options);
-    expect(result).toBe("usa-theme-type-scale-3xs");
+    expect(result).toBe("ogds-theme-type-scale-3xs");
   });
 
   it("should generate token name for theme heading font size", () => {
@@ -241,7 +241,7 @@ describe("generateTokenName", () => {
       path: ["theme-h1-font-size"],
     };
     const result = generateTokenName(themeH1Token, options);
-    expect(result).toBe("usa-theme-h1-font-size");
+    expect(result).toBe("ogds-theme-h1-font-size");
   });
 });
 
@@ -285,11 +285,11 @@ describe("getTokenValueWithUnit", () => {
   it("should return fontFamily value as-is", () => {
     const token = {
       ...defaultToken,
-      $value: "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      $value: 'Georgia, Cambria, "Times New Roman", Times, serif',
       $type: "fontFamily",
     };
     const result = getTokenValueWithUnit(token);
-    expect(result).toBe("Georgia, Cambria, \"Times New Roman\", Times, serif");
+    expect(result).toBe('Georgia, Cambria, "Times New Roman", Times, serif');
   });
 
   it("should return number value as-is", () => {
