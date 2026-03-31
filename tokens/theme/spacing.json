@@ -1,0 +1,21 @@
+{
+  "$type": "dimension",
+  "theme-border-radius": {
+    "sm": { "$value": "2px" },
+    "md": { "$value": "{spacing.05}" },
+    "lg": { "$value": "{spacing.1}" }
+  },
+  "theme-column-gap": {
+    "sm": { "$value": "2px" },
+    "md": { "$value": "{spacing.2}" },
+    "lg": { "$value": "{spacing.3}" },
+    "mobile": { "$value": "{spacing.2}" },
+    "desktop": { "$value": "{spacing.4}" }
+  },
+  "theme-grid-container-max-width": { "$value": "{breakpoint.desktop}" },
+  "theme-site-margins": {
+    "breakpoint": { "$value": "{breakpoint.desktop}" },
+    "width": { "$value": "{spacing.4}" },
+    "mobile-width": { "$value": "{spacing.2}" }
+  }
+}
