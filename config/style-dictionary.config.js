@@ -4,6 +4,8 @@ import {
   getTokenValueWithUnit,
 } from "../internals/token-helpers/index.ts";
 
+const prefix = process.env.TOKEN_PREFIX ?? "ogds";
+
 StyleDictionary.registerTransform({
   name: "name/odgs-theme",
   type: "name",
@@ -63,7 +65,7 @@ export default {
   platforms: {
     scss: {
       transforms: ["name/odgs-theme", "value/odgs-units"],
-      prefix: "ogds",
+      prefix,
       buildPath: "build/scss/",
       files: outputs.map(({ name, filter }) => ({
         destination: `_${name}.scss`,
@@ -73,7 +75,7 @@ export default {
     },
     css: {
       transforms: ["name/odgs-theme", "value/odgs-units"],
-      prefix: "ogds",
+      prefix,
       buildPath: "build/css/",
       files: outputs.map(({ name, filter }) => ({
         destination: `${name}.css`,
