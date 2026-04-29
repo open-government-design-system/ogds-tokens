@@ -58,6 +58,11 @@ const outputs = [
     filter: (token) =>
       token.filePath && token.filePath.includes("tokens/theme/typography"),
   },
+  {
+    name: "theme-components",
+    filter: (token) =>
+      token.filePath && token.filePath.includes("tokens/theme/components"),
+  },
 ];
 
 export default {
