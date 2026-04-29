@@ -1,0 +1,36 @@
+{
+  "theme-button": {
+    "border-radius": {
+      "$value": "{theme-border-radius.md}",
+      "$type": "dimension"
+    },
+    "fill-color": {
+      "$value": "{color.primary}",
+      "$type": "color"
+    },
+    "font-family": {
+      "$value": "{font-family.system}",
+      "$type": "fontFamily"
+    },
+    "icon-gap": {
+      "$value": "{spacing.1}",
+      "$type": "dimension"
+    },
+    "small-width": {
+      "$value": "{spacing.6}",
+      "$type": "dimension"
+    },
+    "stroke-color": {
+      "$value": "{color.primary}",
+      "$type": "color"
+    },
+    "stroke-width": {
+      "$value": "2px",
+      "$type": "dimension"
+    },
+    "text-color": {
+      "$value": "{white}",
+      "$type": "color"
+    }
+  }
+}
