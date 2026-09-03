@@ -2,17 +2,18 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:root, :host {
-  --ogds-color-black-transparent-5: rgba(0,0,0,0.01);
-  --ogds-color-black-transparent-10: rgba(0,0,0,0.1);
-  --ogds-color-black-transparent-20: rgba(0,0,0,0.2);
-  --ogds-color-black-transparent-30: rgba(0,0,0,0.3);
-  --ogds-color-black-transparent-40: rgba(0,0,0,0.4);
-  --ogds-color-black-transparent-50: rgba(0,0,0,0.5);
-  --ogds-color-black-transparent-60: rgba(0,0,0,0.6);
-  --ogds-color-black-transparent-70: rgba(0,0,0,0.7);
-  --ogds-color-black-transparent-80: rgba(0,0,0,0.8);
-  --ogds-color-black-transparent-90: rgba(0,0,0,0.9);
+:root,
+:host {
+  --ogds-color-black-transparent-5: rgba(0, 0, 0, 0.01);
+  --ogds-color-black-transparent-10: rgba(0, 0, 0, 0.1);
+  --ogds-color-black-transparent-20: rgba(0, 0, 0, 0.2);
+  --ogds-color-black-transparent-30: rgba(0, 0, 0, 0.3);
+  --ogds-color-black-transparent-40: rgba(0, 0, 0, 0.4);
+  --ogds-color-black-transparent-50: rgba(0, 0, 0, 0.5);
+  --ogds-color-black-transparent-60: rgba(0, 0, 0, 0.6);
+  --ogds-color-black-transparent-70: rgba(0, 0, 0, 0.7);
+  --ogds-color-black-transparent-80: rgba(0, 0, 0, 0.8);
+  --ogds-color-black-transparent-90: rgba(0, 0, 0, 0.9);
   --ogds-color-blue-cool-5: #e7f2f5;
   --ogds-color-blue-cool-10: #dae9ee;
   --ogds-color-blue-cool-20: #adcfdc;
@@ -89,7 +90,7 @@
   --ogds-color-cyan-vivid-60: #00687d;
   --ogds-color-cyan-vivid-70: #0e4f5c;
   --ogds-color-cyan-vivid-80: #093b44;
-  --ogds-color-transparent: rgba(0,0,0,0);
+  --ogds-color-transparent: rgba(0, 0, 0, 0);
   --ogds-color-black: #000;
   --ogds-color-white: #fff;
   --ogds-color-gold-5: #f5f0e6;
@@ -458,16 +459,16 @@
   --ogds-color-violet-vivid-60: #783cb9;
   --ogds-color-violet-vivid-70: #54278f;
   --ogds-color-violet-vivid-80: #39215e;
-  --ogds-color-white-transparent-5: rgba(255,255,255,0.01);
-  --ogds-color-white-transparent-10: rgba(255,255,255,0.1);
-  --ogds-color-white-transparent-20: rgba(255,255,255,0.2);
-  --ogds-color-white-transparent-30: rgba(255,255,255,0.3);
-  --ogds-color-white-transparent-40: rgba(255,255,255,0.4);
-  --ogds-color-white-transparent-50: rgba(255,255,255,0.5);
-  --ogds-color-white-transparent-60: rgba(255,255,255,0.6);
-  --ogds-color-white-transparent-70: rgba(255,255,255,0.7);
-  --ogds-color-white-transparent-80: rgba(255,255,255,0.8);
-  --ogds-color-white-transparent-90: rgba(255,255,255,0.9);
+  --ogds-color-white-transparent-5: rgba(255, 255, 255, 0.01);
+  --ogds-color-white-transparent-10: rgba(255, 255, 255, 0.1);
+  --ogds-color-white-transparent-20: rgba(255, 255, 255, 0.2);
+  --ogds-color-white-transparent-30: rgba(255, 255, 255, 0.3);
+  --ogds-color-white-transparent-40: rgba(255, 255, 255, 0.4);
+  --ogds-color-white-transparent-50: rgba(255, 255, 255, 0.5);
+  --ogds-color-white-transparent-60: rgba(255, 255, 255, 0.6);
+  --ogds-color-white-transparent-70: rgba(255, 255, 255, 0.7);
+  --ogds-color-white-transparent-80: rgba(255, 255, 255, 0.8);
+  --ogds-color-white-transparent-90: rgba(255, 255, 255, 0.9);
   --ogds-color-yellow-5: #faf3d1;
   --ogds-color-yellow-10: #f5e6af;
   --ogds-color-yellow-20: #e6c74c;
