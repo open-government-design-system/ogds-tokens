@@ -1,0 +1,21 @@
+name: Publish Ephemeral Package
+on: [pull_request]
+
+permissions: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v7
+
+      - name: Setup project
+        uses: ./.github/actions/setup
+
+      - name: Build
+        run: npm run build
+
+      - name: Publish
+        run: npx pkg-pr-new publish --commentWithSha
