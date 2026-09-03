@@ -1,6 +1,6 @@
 {
   "name": "@ogds/tokens",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "type": "module",
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "scripts": {
     "build": "style-dictionary build --config ./config/style-dictionary.config.js",
+    "prepare": "husky",
+    "release": "npm run build && changeset publish",
     "test": "vitest run",
     "prettier:js": "npx prettier --check '**/*.{cjs,css,js,json,jsx,mjs,ts,tsx}' --config ./config/.prettierrc",
     "prettier:js:fix": "npx prettier --write '**/*.{cjs,css,js,json,jsx,mjs,ts,tsx}' --config ./config/.prettierrc",
@@ -24,6 +26,9 @@
     "prettier:md:fix": "npx prettier --write '**/*.{md,mdx}' --config ./config/.prettierrc"
   },
   "devDependencies": {
+    "@changesets/cli": "^3.0.1",
+    "husky": "^9.1.7",
+    "pkg-pr-new": "^0.0.75",
     "prettier": "^3.6.2",
     "style-dictionary": "^5.1.1",
     "vitest": "^4.0.18"
