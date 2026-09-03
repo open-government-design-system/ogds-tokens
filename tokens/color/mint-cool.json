@@ -1,5 +1,6 @@
 {
   "mint-cool": {
+    "$type": "color",
     "5": {
       "$value": "#e0f7f6"
     },
@@ -59,6 +60,5 @@
         "$value": "#123131"
       }
     }
-  },
-  "$type": "color"
+  }
 }

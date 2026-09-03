@@ -1,8 +1,11 @@
 {
   "grid": {
+    "$type": "dimension",
     "base": {
-      "$value": { "value": "8", "unit": "px" }
+      "$value": {
+        "value": "8",
+        "unit": "px"
+      }
     }
-  },
-  "$type": "dimension"
+  }
 }

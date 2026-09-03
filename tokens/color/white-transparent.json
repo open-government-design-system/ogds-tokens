@@ -1,5 +1,6 @@
 {
   "white-transparent": {
+    "$type": "color",
     "5": {
       "$value": "rgba(255,255,255,0.01)"
     },
@@ -30,6 +31,5 @@
     "90": {
       "$value": "rgba(255,255,255,0.9)"
     }
-  },
-  "$type": "color"
+  }
 }

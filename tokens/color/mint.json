@@ -1,5 +1,6 @@
 {
   "mint": {
+    "$type": "color",
     "5": {
       "$value": "#dbf6ed"
     },
@@ -59,6 +60,5 @@
         "$value": "#0d351e"
       }
     }
-  },
-  "$type": "color"
+  }
 }

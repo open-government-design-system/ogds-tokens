@@ -1,5 +1,6 @@
 {
   "gold": {
+    "$type": "color",
     "5": {
       "$value": "#f5f0e6"
     },
@@ -59,6 +60,5 @@
         "$value": "#3b2b15"
       }
     }
-  },
-  "$type": "color"
+  }
 }

@@ -1,5 +1,6 @@
 {
   "green-cool": {
+    "$type": "color",
     "5": {
       "$value": "#ecf3ec"
     },
@@ -59,6 +60,5 @@
         "$value": "#19311e"
       }
     }
-  },
-  "$type": "color"
+  }
 }

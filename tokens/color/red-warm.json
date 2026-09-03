@@ -1,5 +1,6 @@
 {
   "red-warm": {
+    "$type": "color",
     "5": {
       "$value": "#f6efea"
     },
@@ -59,6 +60,5 @@
         "$value": "#3e2a1e"
       }
     }
-  },
-  "$type": "color"
+  }
 }

@@ -1,12 +1,14 @@
 {
   "transparent": {
-    "$value": "rgba(0,0,0,0)"
+    "$value": "rgba(0,0,0,0)",
+    "$type": "color"
   },
   "black": {
-    "$value": "#000"
+    "$value": "#000",
+    "$type": "color"
   },
   "white": {
-    "$value": "#fff"
-  },
-  "$type": "color"
+    "$value": "#fff",
+    "$type": "color"
+  }
 }

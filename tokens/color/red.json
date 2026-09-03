@@ -1,5 +1,6 @@
 {
   "red": {
+    "$type": "color",
     "5": {
       "$value": "#f9eeee"
     },
@@ -59,6 +60,5 @@
         "$value": "#5c1111"
       }
     }
-  },
-  "$type": "color"
+  }
 }
