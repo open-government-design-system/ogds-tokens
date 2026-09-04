@@ -2,7 +2,8 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:root, :host {
+:root,
+:host {
   --ogds-theme-color-base-lightest: #f0f0f0;
   --ogds-theme-color-base-lighter: #dfe1e2;
   --ogds-theme-color-base-light: #a9aeb1;

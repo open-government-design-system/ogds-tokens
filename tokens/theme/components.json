@@ -5,7 +5,7 @@
       "$type": "dimension"
     },
     "fill-color": {
-      "$value": "{color.primary}",
+      "$value": "{theme-color.primary}",
       "$type": "color"
     },
     "font-family": {
@@ -21,7 +21,7 @@
       "$type": "dimension"
     },
     "stroke-color": {
-      "$value": "{color.primary}",
+      "$value": "{theme-color.primary}",
       "$type": "color"
     },
     "stroke-width": {

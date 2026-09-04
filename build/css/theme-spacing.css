@@ -2,7 +2,8 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:root, :host {
+:root,
+:host {
   --ogds-theme-border-radius-sm: 2px;
   --ogds-theme-border-radius-md: 0.25rem;
   --ogds-theme-border-radius-lg: 0.5rem;

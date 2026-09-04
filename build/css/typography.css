@@ -2,11 +2,16 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:root, :host {
-  --ogds-font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+:root,
+:host {
+  --ogds-font-family-system:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --ogds-font-family-georgia: Georgia, Cambria, "Times New Roman", Times, serif;
-  --ogds-font-family-helvetica: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  --ogds-font-family-monospace: "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
+  --ogds-font-family-helvetica:
+    "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  --ogds-font-family-monospace:
+    "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
   --ogds-font-size-1: 0.75rem;
   --ogds-font-size-2: 0.8125rem;
   --ogds-font-size-3: 0.875rem;

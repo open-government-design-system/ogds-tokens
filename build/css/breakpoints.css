@@ -2,7 +2,8 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:root, :host {
+:root,
+:host {
   --ogds-breakpoint-card: 10rem;
   --ogds-breakpoint-card-lg: 15rem;
   --ogds-breakpoint-mobile: 20rem;

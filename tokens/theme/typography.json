@@ -13,8 +13,14 @@
   },
   "theme-body-font-size": { "$value": "{font-size.5}", "$type": "dimension" },
   "theme-body-line-height": { "$value": "{line-height.5}", "$type": "number" },
-  "theme-heading-line-height": { "$value": "{line-height.2}", "$type": "number" },
-  "theme-display-font-size": { "$value": "{font-size.15}", "$type": "dimension" },
+  "theme-heading-line-height": {
+    "$value": "{line-height.2}",
+    "$type": "number"
+  },
+  "theme-display-font-size": {
+    "$value": "{font-size.15}",
+    "$type": "dimension"
+  },
   "theme-h1-font-size": { "$value": "{font-size.14}", "$type": "dimension" },
   "theme-h2-font-size": { "$value": "{font-size.12}", "$type": "dimension" },
   "theme-h3-font-size": { "$value": "{font-size.9}", "$type": "dimension" },

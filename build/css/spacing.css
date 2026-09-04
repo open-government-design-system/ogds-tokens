@@ -2,7 +2,8 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:root, :host {
+:root,
+:host {
   --ogds-column-gap-0: 0px;
   --ogds-column-gap-1: 0.5rem;
   --ogds-column-gap-2: 1rem;

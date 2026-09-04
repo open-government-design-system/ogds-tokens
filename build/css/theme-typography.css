@@ -2,7 +2,8 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:root, :host {
+:root,
+:host {
   --ogds-theme-type-scale-3xs: 0.8125rem;
   --ogds-theme-type-scale-2xs: 0.875rem;
   --ogds-theme-type-scale-xs: 0.9375rem;
