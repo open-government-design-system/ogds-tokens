@@ -1,5 +1,6 @@
 {
   "gray-warm": {
+    "$type": "color",
     "1": {
       "$value": "#fcfcfb"
     },
@@ -42,6 +43,5 @@
     "90": {
       "$value": "#171716"
     }
-  },
-  "$type": "color"
+  }
 }

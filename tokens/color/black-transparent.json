@@ -1,5 +1,6 @@
 {
   "black-transparent": {
+    "$type": "color",
     "5": {
       "$value": "rgba(0,0,0,0.01)"
     },
@@ -30,6 +31,5 @@
     "90": {
       "$value": "rgba(0,0,0,0.9)"
     }
-  },
-  "$type": "color"
+  }
 }

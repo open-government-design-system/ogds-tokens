@@ -1,5 +1,6 @@
 {
   "magenta": {
+    "$type": "color",
     "5": {
       "$value": "#f9f0f2"
     },
@@ -59,6 +60,5 @@
         "$value": "#4f172e"
       }
     }
-  },
-  "$type": "color"
+  }
 }

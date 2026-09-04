@@ -1,5 +1,6 @@
 {
   "green-warm": {
+    "$type": "color",
     "5": {
       "$value": "#f1f4d7"
     },
@@ -59,6 +60,5 @@
         "$value": "#38380b"
       }
     }
-  },
-  "$type": "color"
+  }
 }

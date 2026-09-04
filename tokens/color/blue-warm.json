@@ -1,5 +1,6 @@
 {
   "blue-warm": {
+    "$type": "color",
     "5": {
       "$value": "#ecf1f7"
     },
@@ -59,6 +60,5 @@
         "$value": "#162e51"
       }
     }
-  },
-  "$type": "color"
+  }
 }

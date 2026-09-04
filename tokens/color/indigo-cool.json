@@ -1,5 +1,6 @@
 {
   "indigo-cool": {
+    "$type": "color",
     "5": {
       "$value": "#eef0f9"
     },
@@ -59,6 +60,5 @@
         "$value": "#1b2b85"
       }
     }
-  },
-  "$type": "color"
+  }
 }

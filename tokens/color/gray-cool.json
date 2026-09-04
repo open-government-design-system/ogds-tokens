@@ -1,5 +1,6 @@
 {
   "gray-cool": {
+    "$type": "color",
     "1": {
       "$value": "#fbfcfd"
     },
@@ -42,6 +43,5 @@
     "90": {
       "$value": "#1c1d1f"
     }
-  },
-  "$type": "color"
+  }
 }

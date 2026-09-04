@@ -1,5 +1,6 @@
 {
   "orange-warm": {
+    "$type": "color",
     "5": {
       "$value": "#faeee5"
     },
@@ -59,6 +60,5 @@
         "$value": "#3d231d"
       }
     }
-  },
-  "$type": "color"
+  }
 }

@@ -1,5 +1,6 @@
 {
   "violet-warm": {
+    "$type": "color",
     "5": {
       "$value": "#f8f0f9"
     },
@@ -59,6 +60,5 @@
         "$value": "#481441"
       }
     }
-  },
-  "$type": "color"
+  }
 }

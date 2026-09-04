@@ -1,5 +1,6 @@
 {
   "gray": {
+    "$type": "color",
     "1": {
       "$value": "#fcfcfc"
     },
@@ -45,6 +46,5 @@
     "100": {
       "$value": "#000"
     }
-  },
-  "$type": "color"
+  }
 }

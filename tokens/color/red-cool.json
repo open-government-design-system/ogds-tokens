@@ -1,5 +1,6 @@
 {
   "red-cool": {
+    "$type": "color",
     "5": {
       "$value": "#f8eff1"
     },
@@ -59,6 +60,5 @@
         "$value": "#4f1c24"
       }
     }
-  },
-  "$type": "color"
+  }
 }
