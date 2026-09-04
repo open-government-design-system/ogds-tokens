@@ -20,10 +20,10 @@
     "prepare": "husky",
     "release": "npm run build && changeset publish",
     "test": "vitest run",
-    "prettier:js": "npx prettier --check '**/*.{cjs,css,js,json,jsx,mjs,ts,tsx}' --config ./config/.prettierrc",
-    "prettier:js:fix": "npx prettier --write '**/*.{cjs,css,js,json,jsx,mjs,ts,tsx}' --config ./config/.prettierrc",
-    "prettier:md": "npx prettier --check '**/*.{md,mdx}' --config ./config/.prettierrc",
-    "prettier:md:fix": "npx prettier --write '**/*.{md,mdx}' --config ./config/.prettierrc"
+    "prettier:js": "prettier --check '**/*.{cjs,css,js,json,jsx,mjs,ts,tsx}' --config ./config/.prettierrc",
+    "prettier:js:fix": "prettier --write '**/*.{cjs,css,js,json,jsx,mjs,ts,tsx}' --config ./config/.prettierrc",
+    "prettier:md": "prettier --check '**/*.{md,mdx}' --config ./config/.prettierrc",
+    "prettier:md:fix": "prettier --write '**/*.{md,mdx}' --config ./config/.prettierrc"
   },
   "devDependencies": {
     "@changesets/cli": "^3.0.1",
